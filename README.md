@@ -1,18 +1,16 @@
 <html>
   <head>First Website Page<br>
-    <style>
+  <style>
   body{
   background-color: cyan; 
   background-image: linear-gradient(cyan, lightblue);
   }
-    </style>
+ </style>
   </head>
   <body>
     <form>
-  First name:<br>
-  <input type="text" name="firstname"><br>
-  Last name:<br>
-  <input type="text" name="lastname"><br>
+  First name:<input type="text" name="firstname"><br>
+  Last name:<input type="text" name="lastname"><br>
       <input type="radio" name="gender" value="male" checked> Male<br>
   <input type="radio" name="gender" value="female"> Female<br>
   <input type="radio" name="gender" value="other"> Other<br>
